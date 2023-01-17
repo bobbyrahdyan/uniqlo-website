@@ -1,0 +1,14 @@
+footer {
+  box-shadow: 0 -3px 10px silver;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 300px;
+  background-color: var(--dark);
+}
+
+footer > div {
+  width: 30%;
+  color: var(--secondary);
+  padding: 10px;
+}

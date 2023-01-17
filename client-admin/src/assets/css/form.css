@@ -1,0 +1,47 @@
+.add-product,
+.add-category {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+section.login-page > form,
+.add-category > form,
+.add-product > form {
+  width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+section.login-page > form > button,
+.add-category > form > button,
+.add-product > form > button {
+  margin-right: 5px;
+}
+
+section.login-page > form > *,
+.add-category > form > *,
+.add-product > form > * {
+  margin: 5px 0;
+}
+
+section.register-page > form,
+.add-category > form,
+.add-product > form {
+  width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+section.register-page > form > button,
+.add-category > form > button,
+.add-product > form > button {
+  margin-right: 5px;
+}
+
+section.register-page > form > *,
+.add-category > form > *,
+.add-product > form > * {
+  margin: 5px 0;
+}

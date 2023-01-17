@@ -1,0 +1,19 @@
+.home-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcms.qz.com%2Fwp-content%2Fuploads%2F2016%2F10%2Fgettyimages-164759083-cropped.jpg%3Fquality%3D75%26strip%3Dall%26w%3D1400&f=1&nofb=1");
+  height: 100%;
+  background-size: 150%;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  filter: brightness(70%);
+}
+
+.home-img > button {
+  font-size: 50px;
+  filter: brightness(100%);
+}

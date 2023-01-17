@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 300px;
+  box-shadow: 0 3px 10px silver;
+}
+
+header > div:nth-child(2) {
+  padding: 0 40px;
+}
+
+header > div:nth-child(2) > * {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+header > div:nth-child(2) > *:hover {
+  cursor: pointer;
+}
+
+header > div:nth-child(2) > a.active {
+  font-weight: bolder;
+}

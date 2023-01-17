@@ -1,0 +1,41 @@
+main {
+  position: relative;
+  grid-area: main;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+main table {
+  margin-top: 10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  width: 100%;
+}
+
+main table tr {
+  box-shadow: 0 0 10px silver;
+  border-radius: 10px;
+}
+
+main table tbody tr:hover {
+  background-color: #f5f5f5;
+  transition: 0.3s;
+}
+
+main table tr th,
+main table tr td {
+  padding: 10px;
+}
+
+.description {
+  max-width: 400px;
+}
+
+main table img {
+  width: 200px;
+}
+
+main table button {
+  width: 78px;
+  margin: 3px 3px 3px 0;
+}

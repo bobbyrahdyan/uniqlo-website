@@ -1,0 +1,29 @@
+nav {
+  grid-area: navBar;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  max-height: 100vh;
+  font-weight: bolder;
+}
+
+nav a:nth-last-child(1) {
+  margin-top: 100px;
+}
+
+nav > a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav > a:hover {
+  cursor: pointer;
+  color: aliceblue;
+}
+
+nav > a.active {
+  background-color: #000070;
+  transition: 0.3s ease-in-out;
+}

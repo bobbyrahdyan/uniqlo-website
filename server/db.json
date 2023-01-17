@@ -1,0 +1,160 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "cmcgilroy0",
+      "email": "temp@mail.com",
+      "password": "12345",
+      "role": "admin",
+      "phoneNumber": "669-644-4624",
+      "address": "5 Mallard Point"
+    },
+    {
+      "id": 2,
+      "username": "kriba1",
+      "email": "user@mail.com",
+      "password": "12345",
+      "role": "admin",
+      "phoneNumber": "455-543-7498",
+      "address": "35 Lyons Point"
+    },
+    {
+      "id": 3,
+      "username": "mdoonican2",
+      "email": "zgittings2@utexas.edu",
+      "password": "12345",
+      "role": "admin",
+      "phoneNumber": "808-605-1132",
+      "address": "38 Clarendon Way"
+    },
+    {
+      "id": 4,
+      "username": "worourke3",
+      "email": "mcleyburn3@un.org",
+      "password": "12345",
+      "role": "admin",
+      "phoneNumber": "621-838-1431",
+      "address": "4 Meadow Ridge Circle"
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "name": "HEATTECH Crew Neck Long Sleeve T-Shirt",
+      "description": "High-performance innerwear that is warm and easy to move around in. The shorter sleeve length stays hidden under outerwear. Due to hygiene reasons, this product cannot be returned.",
+      "price": 199000,
+      "mainImg": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/450527/item/goods_08_450527.jpg?width=1600&impolicy=quality_75",
+      "categoryId": 1,
+      "authorId": 1,
+      "createdAt": "2022-12-15 04:45:58 -0400",
+      "updatedAt": "2022-12-15 04:45:58 -0400"
+    },
+    {
+      "id": 2,
+      "name": "Smart Skort",
+      "description": "Asymmetric hem adds a style accent. Comfortable elastic waist.",
+      "price": 399000,
+      "mainImg": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/451580/sub/goods_451580_sub14.jpg?width=1600&impolicy=quality_75",
+      "categoryId": 2,
+      "authorId": 2,
+      "createdAt": "2022-12-15 04:45:58 -0400",
+      "updatedAt": "2022-12-15 04:45:58 -0400"
+    },
+    {
+      "id": 3,
+      "name": "Slub Jersey Cropped Crew Neck T-Shirt",
+      "description": "A relaxed T-shirt made with natural cotton",
+      "price": 24999,
+      "mainImg": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/446707/item/idgoods_37_446707.jpg?width=1600&impolicy=quality_75",
+      "categoryId": 1,
+      "authorId": 2,
+      "createdAt": "2022-12-15 04:45:58 -0400",
+      "updatedAt": "2022-12-15 04:45:58 -0400"
+    }
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "name": "Man",
+      "createdAt": "2022-12-15 04:48:19 -0400",
+      "updatedAt": "2022-12-15 04:48:19 -0400"
+    },
+    {
+      "id": 2,
+      "name": "Women",
+      "createdAt": "2022-12-15 04:48:19 -0400",
+      "updatedAt": "2022-12-15 04:48:19 -0400"
+    },
+    {
+      "id": 3,
+      "name": "Kids",
+      "createdAt": "2022-12-15 04:48:19 -0400",
+      "updatedAt": "2022-12-15 04:48:19 -0400"
+    }
+  ],
+  "Images": [
+    {
+      "id": 1,
+      "productId": 1,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/450527/sub/goods_450527_sub17.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/450527/sub/goods_450527_sub17.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/450527/sub/idgoods_450527_sub23.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/451153/sub/goods_451153_sub18.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448840/sub/goods_448840_sub19.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/448840/sub/goods_448840_sub21.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    },
+    {
+      "id": 4,
+      "productId": 3,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/446707/sub/goods_446707_sub13.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    },
+    {
+      "id": 4,
+      "productId": 3,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/446707/sub/goods_446707_sub19.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    },
+    {
+      "id": 4,
+      "productId": 3,
+      "imgUrl": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/446707/sub/goods_446707_sub26.jpg?width=1600&impolicy=quality_75",
+      "createdAt": "2022-12-15 04:50:37 -0400",
+      "updatedAt": "2022-12-15 04:50:37 -0400"
+    }
+  ]
+}

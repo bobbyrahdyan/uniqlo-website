@@ -1,0 +1,29 @@
+@import "./assets/css";
+
+:root {
+  --light: #f8f6f4;
+  --primary: #9f875d;
+  --secondary: #94979c;
+  --dark: #4d3f3a;
+}
+
+main {
+  position: relative;
+  padding: 0 300px;
+  min-height: 100vh;
+}
+
+div.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.logo > span {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px 0 10px 0;
+}
